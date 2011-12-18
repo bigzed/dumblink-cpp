@@ -1,6 +1,7 @@
 ### About
 
 Trivial program for testing-purposes.
+Creates the requested amount of hard links to the given file.
 
 
 ### Building
