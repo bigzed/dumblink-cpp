@@ -21,8 +21,6 @@
 //#LFLAGS << -lboost_filesystem-gcc45-mt-1_47
 //#LFLAGS << -lboost_system-gcc45-mt-1_47
 
-#include <sstream>
-
 #include <boost/filesystem.hpp>
 #include <boost/lexical_cast.hpp>
 
