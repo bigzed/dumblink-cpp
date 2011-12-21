@@ -18,11 +18,11 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 // OTHER DEALINGS IN THE SOFTWARE.
 
-//#LFLAGS << -lboost_filesystem-gcc45-mt-1_47
-//#LFLAGS << -lboost_system-gcc45-mt-1_47
+//#LFLAGS << -I/opt/boost/lib /opt/boost/lib/libboost_filesystem.a /opt/boost/lib/libboost_system.a
 
 #include <boost/filesystem.hpp>
 #include <boost/lexical_cast.hpp>
+#include <iostream>
 
 using namespace boost::filesystem; // Sue me.
 
