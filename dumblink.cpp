@@ -38,8 +38,8 @@ int main(int argc, char const *argv[])
   path target_dir = absolute(argv[2]);
   int amount = boost::lexical_cast<int>(argv[3]);
 
-  std::cout << "Hardlinking " << amount << " times to '" <<
-    source << "' in '" << target_dir << "'..." << std::endl;
+//  std::cout << "Hardlinking " << amount << " times to '" <<
+//    source << "' in '" << target_dir << "'..." << std::endl;
 
   for (int i = 0; i < amount; ++i) {
     path target(target_dir /
